@@ -1,0 +1,16 @@
+<div class="agileits-services" id="services">
+        <div class="container">
+            <h2 class="heading text-capitalize"> Skills </h2>
+            <p class="subs mt-4">I am Skilled In The Following Languages/Frameworks and more</p>
+            <div class="agileits-services-row row pt-md-5 pb-5  text-center">
+                {% for skill in skills %}
+                <div class="col-lg-4 mt-4">
+                    <div class="agileits-services-grids mt-lg-0 mt-md-0 mt-5">
+                        <h4 class="mt-4 mb-4">{{skill}}</h4>
+
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>

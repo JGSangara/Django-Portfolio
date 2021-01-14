@@ -1,0 +1,29 @@
+
+<section class="wedo" id="contact">
+        <div class="container">
+            <h3 class="heading text-capitalize text-white text-center"> Contact </h3>
+            <p class="subs mt-4 text-center">Feel Free To Reach Me Out.</p>
+            <div class="contact_grid_right mt-5 mx-auto text-center">
+                <form action="/" method="post">
+                {% csrf_token %}
+                    <input type="text" name="Name" placeholder="Name" >
+                    <input type="email" name="Email" placeholder="Email" >
+                    <textarea name="Message" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Message...';}" >Message...</textarea>
+                    <input type="submit" value="Send Message">
+                    <input type="reset" value="Clear Form">
+                    <div class="clearfix"></div>
+                </form>
+            </div>
+
+            <div class="cpy-right text-center">
+                <div class="follow">
+                    <ul class="social_section_1info">
+                        <li><a href="https://twitter.com/JosphatGitogo" target="blank"><span class="fa fa-twitter"></span></a></li>
+                        <li><a href="https://www.linkedin.com/in/josphat-gitogo-b0b78380" target="blank"><span class="fa fa-linkedin"></span></a></li>
+                        <li><a href="https://github.com/JGSangara" target="blank"><span class="fa fa-github"></span></a></li>
+                    </ul>
+                </div>
+                <p>© 2021. All rights reserved | Designed by Josphat Gitogo Sangara</p>
+            </div>
+        </div>
+    </section>
