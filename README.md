@@ -17,7 +17,7 @@
 
 Get the project up and running locally in just 5 easy steps.
 
-1. Create a personal [Fork](https://github.com/JGSangara/Portfolio.git) of this repository.
+1. Create a personal [Fork](https://github.com/JGSangara/Django-Portfolio.git) of this repository.
 
 2. **Clone** the fork with HTTPS, using your local terminal to a preferred location, and **cd** into the project.
 
