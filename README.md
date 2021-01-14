@@ -22,16 +22,18 @@ Get the project up and running locally in just 5 easy steps.
 2. **Clone** the fork with HTTPS, using your local terminal to a preferred location, and **cd** into the project.
 
 ```bash
-git clone https://github.com/JGSangara/Portfolio.git
+https://github.com/JGSangara/Django-Portfolio.git
 
-Cloning into 'Portfolio'...
-remote: Enumerating objects: 87, done.
-remote: Counting objects: 100% (87/87), done.
-remote: Compressing objects: 100% (77/77), done.
-remote: Total 87 (delta 12), reused 74 (delta 5), pack-reused 0
-Unpacking objects: 100% (87/87), 2.02 MiB | 260.00 KiB/s, done.
+Cloning into 'Django-Portfolio'...
+remote: Enumerating objects: 52, done.
+remote: Counting objects: 100% (52/52), done.
+remote: Compressing objects: 100% (48/48), done.
+Rremote: Total 52 (delta 3), reused 47 (delta 1), pack-reused 0eceiving objects:  94% (49/52),
 
-cd Portfolio/
+Receiving objects: 100% (52/52), 1.46 MiB | 321.00 KiB/s, done.
+Resolving deltas: 100% (3/3), done.
+
+cd Django-Portfolio/
 ```
 
 3. Create your virtual environment, and activate it.
@@ -58,8 +60,9 @@ Watching for file changes with StatReloader
 Performing system checks...
 
 System check identified no issues (0 silenced).
-September 22, 2020 - 12:34:12
-Django version 3.0, using settings 'josphat.settings'
+
+January 14, 2021 - 23:42:33
+Django version 3.1.5, using settings 'Portfolio.settings'
 Starting development server at http://127.0.0.1:8000/
 Quit the server with CTRL-BREAK.
 ```
@@ -75,4 +78,4 @@ Heroku app is already configured to this repository for *automatic deploys* from
 
 ## License
 
-[@MIT](https://github.com/JGSangara/Portfolio/blob/master/LICENSE)
+[@MIT](https://github.com/JGSangara/Django-Portfolio/blob/main/LICENSE)
